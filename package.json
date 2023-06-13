@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server":" nodemon server/server.js"
+    "server": " nodemon server/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,17 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.2.1",
     "nodemon": "^2.0.22"
-  }
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elveyo/DevelopYourself.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/elveyo/DevelopYourself/issues"
+  },
+  "homepage": "https://github.com/elveyo/DevelopYourself#readme"
 }
