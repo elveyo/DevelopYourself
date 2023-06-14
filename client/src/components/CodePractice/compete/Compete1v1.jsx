@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { Editor } from "@monaco-editor/react";
+import { Link } from "react-router-dom";
 import {
   LuLayoutDashboard,
   LuUser,
@@ -8,6 +9,7 @@ import {
   LuText,
   LuSwords,
 } from "react-icons/lu";
+import Rezultati from "../practice/Rezultati";
 
 const defaultCode = `
 #include<iostream>
@@ -15,9 +17,10 @@ const defaultCode = `
 #include<algorithm>
 using namespace std;
 int main()
-    {
-        return 0;
-    }`;
+{
+  return 0;
+}`;
+const colors = ["rgb(107,114,128)", "rgb(107,114,128)", "rgb(107,114,128)"];
 const Compete1v1 = () => {
   return (
     // wrapper
@@ -42,10 +45,10 @@ const Compete1v1 = () => {
               </button>
             </li>
             <li className="bg-white text-[#677CC8] rounded-md p-1 m-1">
-              <button className="flex flex-wrap justify-center w-32">
+              <Link to="/" className="flex flex-wrap justify-center w-32">
                 Logout
                 <LuLogOut className="mt-1 ml-1" />
-              </button>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -136,7 +139,7 @@ const Compete1v1 = () => {
         </button>
         {/* ------------- rezultati izvrsavanja koda ---------- */}
         <div className="w-full bg-[#677CC8] h-10 rounded-b-xl pl-10 z-10 shadow-inner shadow-white">
-          rezultati
+          <Rezultati colors={colors} />
         </div>
         {/* ------------------ vertical line ------------------ */}
         <div className="absolute left-1/2 top-0 w-px h-full bg-white" />
