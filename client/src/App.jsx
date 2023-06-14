@@ -4,8 +4,10 @@ import WelcomePage from "./components/WelcomePage";
 import About from "./components/About";
 import UserCompany from "./components/UserCompany";
 import Footer from "./components/Footer";
-import PracticeDashboard from "./components/CodePractice/PracticeDashboard";
-import Compete1v1 from "./components/CodePractice/compete/Compete1v1";
+import PracticeDashboard from "./components/CodePractice/compete/PracticeDashboard";
+import Compete1v1 from "./components/CodePractice/compete/compete1v1";
+import PracticePage from "./components/CodePractice/practice/PracticePage";
+import AdnanGalijasevic from "./components/CodePractice/profile/AdnanGalijasevic";
 
 function App() {
   return (
@@ -23,7 +25,12 @@ function App() {
           }
         />
         <Route path="code-practice" element={<PracticeDashboard />} />
-        <Route path="code-practice/1v1" element={<Compete1v1 />} />
+        <Route path="/1v1" element={<Compete1v1 />} />
+        <Route path="/practice" element={<PracticePage />} />
+        <Route
+          path="/profile/AdnanGalijasevic"
+          element={<AdnanGalijasevic />}
+        />
       </Routes>
     </>
   );

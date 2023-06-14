@@ -3,6 +3,7 @@ import { FaLaptopCode, FaArrowLeft } from "react-icons/fa";
 import { RiSwordLine, RiQuestionnaireLine } from "react-icons/ri";
 import { LuBookMarked } from "react-icons/lu";
 import Historytable from "./Historytable";
+import { Link } from "react-router-dom";
 const PracticeDashboard = () => {
   return (
     <>
@@ -36,14 +37,15 @@ const PracticeDashboard = () => {
             From begginer to expert
             <br />
           </p>
-          <button
+          <Link
+            to="/practice"
             className="w-24 m-3 bg-blue-900 rounded-md border-2 border-white
            hover:bg-white hover:border-[#0F1736] hover:text-[#0F1736] 
            flex flex-wrap justify-evenly
            ml-[50%] -translate-x-[50%]"
           >
             Practice <FaLaptopCode className="mt-1" />
-          </button>
+          </Link>
         </div>
         {/* ------------------------------ */}
         <div className="min-h-1/3 w-[40%] rounded-md text-center text-white bg-[#677CC8] shadow-gray-800 shadow-xl">
@@ -63,8 +65,13 @@ const PracticeDashboard = () => {
            flex flex-wrap justify-evenly
            ml-[50%] -translate-x-[50%] transition-transform"
           >
-            Compete
-            <RiSwordLine className="mt-1" />
+            <Link
+              to="/1v1"
+              className="w-full h-full flex flex-wrap justify-evenly"
+            >
+              Compete
+              <RiSwordLine className="mt-1" />
+            </Link>
           </button>
         </div>
       </main>
