@@ -1,6 +1,6 @@
-import ogledalo from '../images/ogledalo.png'
-import '../styles/welcome.css'
-import Logo from '../images/logo.svg'
+import ogledalo from '../../images/ogledalo.png'
+import '../../styles/welcome.css'
+import Logo from '../../images/logo.svg'
 function WelcomePage() {
   return (
     <div className="welcome-page">

@@ -1,8 +1,8 @@
-import '../styles/about.css'
-import Pretrazivanje from '../images/pretrazivanje.svg'
-import Cv from '../images/cv.svg'
-import Coding from '../images/coding.svg'
-import Knjiga from '../images/knjiga.svg'
+import '../../styles/about.css'
+import Pretrazivanje from '../../images/pretrazivanje.svg'
+import Cv from '../../images/cv.svg'
+import Coding from '../../images/coding.svg'
+import Knjiga from '../../images/knjiga.svg'
 
 
 

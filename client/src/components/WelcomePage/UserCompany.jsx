@@ -1,4 +1,4 @@
-import '../styles/userCompany.css'
+import '../../styles/userCompany.css'
 function UserCompany() {
   return (
     <div className="user-company">
