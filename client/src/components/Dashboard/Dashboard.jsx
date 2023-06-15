@@ -18,47 +18,47 @@ const Dashboard = () => {
         </div>
     <div className="dashboard">
        
-        <div className="item" >
-        <Link to="/code-practice">
+       
+        <Link to="/code-practice" className="item">
         <img className="avatar" src={Code}></img>
         Coding
         </Link>
-        </div>
         
-        <div className="item">
-        <Link to="/code-practice">
+        
+        
+        <Link to="/code-practice" className="item">
         <img className="avatar" src={Event}></img>
         Events
         </Link>
-        </div>
+        
 
-        <div className="item">
-        <Link to="/code-practice">
+        
+        <Link to="/code-practice" className="item">
         <img className="avatar" src={Avatar}></img>
-        Events
+        Profile
         </Link>
-        </div>
+        
 
-                <div className="item">
-        <Link to="/code-practice">
+            
+        <Link to="/code-practice" className="item">
         <img className="avatar" src={Jobs}></img>
         Jobs
         </Link>
-        </div>
+       
 
-        <div className="item">
-        <Link to="/code-practice">
+     
+        <Link to="/code-practice" className="item">
         <img className="avatar" src={Avatar}></img>
         Courses
         </Link>
-        </div>
+        
 
-        <div className="item">
-        <Link to="/code-practice">
+        
+        <Link to="/code-practice" className="item">
         <img className="avatar" src={Post}></img>
         Posts
         </Link>
-        </div>
+        
     </div>
     </div>
   )

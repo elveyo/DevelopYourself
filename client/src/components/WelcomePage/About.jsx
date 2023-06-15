@@ -26,7 +26,7 @@ function About() {
                 <p>Make your CV</p>
             </div>
             <div className="back">
-              <p>Let your profile be your CV. Put there your data, projects , finished school etc.Someone may hire you :)</p>
+              <p>Let your profile be your CV. Put there your data, projects , finished school etc.Someone may hire you :</p>
             </div>
         </div>
 

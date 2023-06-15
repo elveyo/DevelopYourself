@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 #root {
-  --blue: rgb(73, 73, 187);
+  --blue: #556BB8;
   font-family: "Inter", sans-serif;
 }
 * {

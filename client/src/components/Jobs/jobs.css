@@ -1,0 +1,74 @@
+.jobs{
+    height:auto;
+    width:90%;
+    margin:0 auto;
+    padding:50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.jobs-title{
+    font-size: 2rem;
+    text-align: center;
+    padding:20px;
+    font-weight: bold;
+}
+.jobs-title span{
+    color:var(--blue);
+}
+.job{
+    width:30%;
+    height:auto;
+    background-color:var(--blue);
+    position:relative;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+.job p{
+    font-size: 1rem;
+    color:white;
+    width:80%;
+}
+.job .buttons{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.arrow{
+    margin:20px auto;
+    font-size: 1.5rem;
+    color:white;
+}
+.buttons button{
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 1.2rem;
+    color:var(--blue);
+    padding:5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.job h2{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom:10%;
+    text-transform: uppercase;
+}
+.job img{
+    border-radius: 50%;
+    border:1px solid black;
+    width:150x;
+    height:150px;
+    transform: translateY(-50%);
+}
